@@ -55,20 +55,20 @@ echo "CONFIG_FIRMWARE_INCLUDE_WYYBIN=n" >> .config #网易云解锁GO版本执�
 echo "CONFIG_FIRMWARE_INCLUDE_WXSEND=n" >> .config
 ##微信推送##
 ##内网穿透服务##
-echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=n" >> .config #zerotier ~1.3M
+echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=y" >> .config #zerotier ~1.3M
 echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=n" >> .config #aliddns
-echo "CONFIG_FIRMWARE_INCLUDE_CLOUDFLARE=n" >> .config #cfddns
+echo "CONFIG_FIRMWARE_INCLUDE_CLOUDFLARE=y" >> .config #cfddns
 echo "CONFIG_FIRMWARE_INCLUDE_FRPC=n" >> .config #frpc
 echo "CONFIG_FIRMWARE_INCLUDE_FRPS=n" >> .config #frps
 echo "CONFIG_FIRMWARE_INCLUDE_DDNSTO=n" >> .config #ddnsto
 #echo "CONFIG_FIRMWARE_INCLUDE_NPC=n" >> .config #npc
-echo "CONFIG_FIRMWARE_INCLUDE_CLOUDFLARED=n" >> .config #cloudflare的隧道
-echo "CONFIG_FIRMWARE_INCLUDE_VNTS=n" >> .config #vnt服务器
-echo "CONFIG_FIRMWARE_INCLUDE_VNTCLI=n" >> .config #vnt客户端
-echo "CONFIG_FIRMWARE_INCLUDE_NATPIERCE=n" >> .config #皎月连一键内网穿透
-echo "CONFIG_FIRMWARE_INCLUDE_TAILSCALE=n" >> .config #tailscale
-echo "CONFIG_FIRMWARE_INCLUDE_EASYTIER=n" >> .config #EasyTier
-echo "CONFIG_FIRMWARE_INCLUDE_BAFA=n" >> .config #巴法云
+echo "CONFIG_FIRMWARE_INCLUDE_CLOUDFLARED=y" >> .config #cloudflare的隧道
+echo "CONFIG_FIRMWARE_INCLUDE_VNTS=y" >> .config #vnt服务器
+echo "CONFIG_FIRMWARE_INCLUDE_VNTCLI=y" >> .config #vnt客户端
+echo "CONFIG_FIRMWARE_INCLUDE_NATPIERCE=y" >> .config #皎月连一键内网穿透
+echo "CONFIG_FIRMWARE_INCLUDE_TAILSCALE=y" >> .config #tailscale
+echo "CONFIG_FIRMWARE_INCLUDE_EASYTIER=y" >> .config #EasyTier
+echo "CONFIG_FIRMWARE_INCLUDE_BAFA=y" >> .config #巴法云
 ##内网穿透服务##
 
 echo "CONFIG_FIRMWARE_INCLUDE_UUPLUGIN=n" >> .config
