@@ -60,7 +60,7 @@ echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=n" >> .config #aliddns
 echo "CONFIG_FIRMWARE_INCLUDE_CLOUDFLARE=y" >> .config #cfddns
 echo "CONFIG_FIRMWARE_INCLUDE_FRPC=n" >> .config #frpc
 echo "CONFIG_FIRMWARE_INCLUDE_FRPS=n" >> .config #frps
-echo "CONFIG_FIRMWARE_INCLUDE_DDNSTO=n" >> .config #ddnsto
+#echo "CONFIG_FIRMWARE_INCLUDE_DDNSTO=n" >> .config #ddnsto
 #echo "CONFIG_FIRMWARE_INCLUDE_NPC=n" >> .config #npc
 echo "CONFIG_FIRMWARE_INCLUDE_CLOUDFLARED=y" >> .config #cloudflare的隧道
 echo "CONFIG_FIRMWARE_INCLUDE_VNTS=y" >> .config #vnt服务器
@@ -71,8 +71,8 @@ echo "CONFIG_FIRMWARE_INCLUDE_EASYTIER=y" >> .config #EasyTier
 echo "CONFIG_FIRMWARE_INCLUDE_BAFA=y" >> .config #巴法云
 ##内网穿透服务##
 
-echo "CONFIG_FIRMWARE_INCLUDE_UUPLUGIN=n" >> .config
-echo "CONFIG_FIRMWARE_INCLUDE_LUCKY=n" >> .config
+echo "CONFIG_FIRMWARE_INCLUDE_UUPLUGIN=y" >> .config
+echo "CONFIG_FIRMWARE_INCLUDE_LUCKY=y" >> .config
 
 sed -i 's/CONFIG_FIRMWARE_INCLUDE_OPENSSL_EXE=n/CONFIG_FIRMWARE_INCLUDE_OPENSSL_EXE=y/g' .config
 
